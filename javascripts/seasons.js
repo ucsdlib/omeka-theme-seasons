@@ -3,18 +3,18 @@ if (!Seasons) {
 }
 
 (function ($) {
-    
+
     Seasons.mobileSelectNav = function () {
         // Create the dropdown base
         $("<select class=\"mobile\" />").appendTo("nav.top");
-        
+
         // Create default option "Go to..."
         $("<option />", {
            "selected": "selected",
            "value"   : "",
            "text"    : "Go to..."
         }).appendTo("nav select");
-        
+
         // Populate dropdown with menu items
         $("nav.top a").each(function() {
             var el = $(this);

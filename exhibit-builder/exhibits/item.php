@@ -3,7 +3,7 @@
 <h1><?php echo metadata('item', array('Dublin Core', 'Title')); ?></h1>
 
 <div id="primary">
-    
+
     <?php echo all_element_texts('item'); ?>
 
 </div><!-- end primary -->

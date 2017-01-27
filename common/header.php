@@ -29,7 +29,7 @@
     ?>
 
     <!-- JavaScripts -->
-    <?php 
+    <?php
     queue_js_file(array(
         'vendor/selectivizr',
         'vendor/jquery-accessibleMegaMenu',
@@ -37,7 +37,7 @@
         'jquery-extra-selectors',
         'seasons',
         'globals'
-    )); 
+    ));
     ?>
 
     <?php echo head_js(); ?>
