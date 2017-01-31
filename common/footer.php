@@ -4,7 +4,7 @@
 
         <div id="custom-footer-text">
             <?php if ( $footerText = get_theme_option('Footer Text') ): ?>
-            <p style="color:#000000"><?php echo $footerText; ?></p>
+            <p style="color:black;"><?php echo $footerText; ?></p>
             <?php endif; ?>
             <?php if ((get_theme_option('Display Footer Copyright') == 1) && $copyright = option('copyright')): ?>
                 <p><?php echo $copyright; ?></p>
