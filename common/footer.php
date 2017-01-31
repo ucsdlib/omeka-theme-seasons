@@ -2,7 +2,7 @@
 
 <footer role="contentinfo">
 
-        <div id="custom-footer-text">
+        <div id="custom-footer-text" style="color:#000000">
             <?php if ( $footerText = get_theme_option('Footer Text') ): ?>
             <p><?php echo $footerText; ?></p>
             <?php endif; ?>
