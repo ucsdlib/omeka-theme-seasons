@@ -41,6 +41,7 @@
     ?>
 
     <?php echo head_js(); ?>
+    <?php include_once("/opt/google-analytics/analyticstracking.php"); ?>
 </head>
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
